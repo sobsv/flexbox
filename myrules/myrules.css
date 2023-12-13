@@ -1,0 +1,149 @@
+/*шаблон структуры стилей
+структура
+ Reset или обнуление стилей (по желанию) 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ Определение общих стилей для body и html 
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+ Обнуление отступов и стилей для списков (по желанию) 
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ Шапка сайта 
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+ Навигационное меню 
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ Основное содержимое страницы 
+main {
+  padding: 20px;
+}
+
+ Стили для разделов и статей 
+section {
+  margin-bottom: 20px;
+}
+
+article {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ Боковая панель (по желанию) 
+aside {
+  width: 30%;
+}
+
+ Подвал сайта 
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+порядок написания объявлений
+
+Позиционирование и блочная модель
+position                 Определение позиционирования элемента 
+top, right, bottom, left  Отступы от краев при абсолютном или фиксированном позиционировании 
+display                  Определение типа блока (например, block, inline, flex) 
+float                    Обтекание элемента 
+clear                    Очистка обтекания 
+margin                   Внешние отступы элемента 
+padding                  Внутренние отступы элемента 
+box-sizing               Определение модели блока: border-box (ширина и высота включают границы и внутренние отступы) или content-box 
+
+Типографика
+font                     Определение шрифта 
+line-height              Высота строки 
+text-align               Выравнивание текста 
+text-decoration          Оформление текста (подчеркивание, зачеркивание и т.д.) 
+text-transform           Преобразование текста (например, uppercase) 
+color                    Цвет текста 
+
+Фон
+background-color         Цвет фона 
+background-image         Изображение фона 
+background-repeat        Повторение изображения фона 
+background-position      Позиция изображения фона 
+background-size          Размер изображения фона 
+background-attachment    Фиксированный или прокручиваемый фон 
+
+Границы
+border                   Граница элемента 
+border-radius            Радиус скругления углов границы 
+
+Отступы и выравнивание
+margin                   Внешние отступы элемента 
+padding                  Внутренние отступы элемента 
+text-align               Выравнивание текста 
+vertical-align           Выравнивание вертикально 
+
+Размеры и распределение
+width                    Ширина элемента 
+height                   Высота элемента 
+max-width                Максимальная ширина элемента 
+max-height               Максимальная высота элемента 
+min-width                Минимальная ширина элемента 
+min-height               Минимальная высота элемента 
+box-sizing               Определение модели блока 
+
+Flexbox и Grid (если используется)
+flex                     Гибкость элемента внутри контейнера Flexbox 
+flex-direction           Направление осей в контейнере Flexbox 
+justify-content          Выравнивание элементов вдоль главной оси (Flexbox) 
+align-items              Выравнивание элементов вдоль поперечной оси (Flexbox) 
+align-self               Выравнивание элемента вдоль поперечной оси (Flexbox) 
+grid-template-columns    Определение колонок в контейнере Grid 
+grid-template-rows       Определение строк в контейнере Grid 
+
+Анимации и трансформации (если используется)
+animation                Анимация элемента 
+transform                Трансформация элемента 
+transition               Плавные переходы между состояниями элемента 
+
+Прочее
+overflow                 Обработка переполнения содержимого элемента 
+cursor                   Тип указателя при наведении на элемент 
+visibility               Видимость элемента 
+
+
+и другие свойства по мере необходимости
+
+*/
