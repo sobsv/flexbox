@@ -11,8 +11,20 @@ body, html {
   background-color: #111;
   color: #eee;
 }
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+}
 ul, ol {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.img-slons {
+  width: 500px;
 }
