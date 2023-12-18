@@ -41,25 +41,33 @@
 </head>
 <!-- EMMET: body>(header>h1+nav>ul.list_nav>li{inf$})+main>(section>h2+p)+(section>h2+article>h3+p)+aside+footer -->
 <body>
-  <header>
-    <h1>my-practic</h1>
+  <header class="main-header">
+    <h1 class="main-header__title">my-practic</h1>
     <nav>
       <!-- ul - неупорядоченный список, ol - упорядоченный список-->
-      <ul class="list_nav">
-        <li>inf1</li>
-        <li>inf2</li>
-        <li>inf3</li>
+      <!-- EMMET: ul.nav-list>li*3>a[href="#"]{text} -->
+      <ul class="main-header__nav-list">
+        <li class="main-header__item"><a class="main-header__nav-link" href="#">text</a></li>
+        <li class="main-header__item"><a class="main-header__nav-link" href="#">text</a></li>
+        <li class="main-header__item"><a class="main-header__nav-link" href="#">text</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section>
-      <h2>Неповторимые слоны</h2>
-      <!-- тег (семантический) article - блок контента, который может существовать автономно, независимо от контекста страницы -->
-      <article>
-        <h3>Слон обыкновенный</h3>
-        <p>Обитает в обыкновенных местах</p>
-        <img class="img-slons" src="img/slon-ob.jpg" alt="слон обыкновенный(фиолетовый)">
+    <section class="elephant">
+      <h2 class="elephant__title">Неповторимые слоны</h2>
+      <article class="elephant__info">
+        <h3 class="elephant__subtitle">Вот они слева направо</h3>
+        <p class="elephant__description">Обитает в обыкновенных местах</p>
+        <img class="elephant__image" src="img/slon-ob.jpg" alt="слон обыкновенный(фиолетовый)">
+      </article>
+    </section>
+    <section class="elephant">
+      <h2 class="elephant__title">Неповторимые слоны</h2>
+      <article class="elephant__info">
+        <h3 class="elephant__subtitle">Вот они слева направо</h3>
+        <p class="elephant__description">Обитает в обыкновенных местах</p>
+        <img class="elephant__image" src="img/slon-ob.jpg" alt="слон обыкновенный(фиолетовый)">
       </article>
     </section>
   </main>
