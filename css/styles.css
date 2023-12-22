@@ -1,29 +1,22 @@
-* {
-  margin: 0;
-  padding: 0;
-  /* размеры элемента включают в себя ширину границ и внутренние отступы, и они не добавляются к указанной ширине или высоте элемента*/
+.header-main {
 }
-
-body, html {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  background-color: #111;
-  color: #eee;
+.header-main__title {
 }
-h1 {
-  font-size: 40px;
+.nav-main__item {
 }
-h2 {
-  font-size: 30px;
+.nav-main {
 }
-h3 {
-  font-size: 20px;
+.main {
 }
-ul, ol {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.section-elephant {
 }
-.elephant__image {
-  width: 500px;
+.section-elephant__title {
+}
+.section-elephant__info {
+}
+.section-elephant__subtitle {
+}
+.section-elephant__description {
+}
+.section-elephant__image {
 }
