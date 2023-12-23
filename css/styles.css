@@ -1,10 +1,14 @@
-.header-main {
+body {
+  background-color: #111;
+  color:antiquewhite;
 }
-.header-main__title {
+.header {
 }
-.nav-main__item {
+.header__title {
 }
-.nav-main {
+.nav {
+}
+.nav-links {
 }
 .main {
 }
